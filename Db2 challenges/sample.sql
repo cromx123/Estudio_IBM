@@ -1,0 +1,12 @@
+SELECT 
+    D.DEPTNAME, 
+    MAX(COALESCE(E.SALARY, 0) + COALESCE(E.BONUS, 0) + COALESCE(E.COMM, 0)) AS maxganancias
+FROM 
+    ibmuser.dept D, 
+    ibmuser.emp E
+WHERE 
+    E.WORKDEPT = D.DEPTNO
+GROUP BY 
+    D.DEPTNAME
+ORDER BY 
+    D.DEPTNAME;

@@ -66,3 +66,43 @@ Y el porque de esta aquitectura.
 
 Test:
 
+1. IMS Transaction Manager and IMS Database Manager are the two components of IMS?
+Yes
+
+2. How did IMS survive and grow?
+Architecture and Adaptability
+
+3. Since its introduction as part of the Apollo project, IMS is said to “run the world” because it is installed in a variety of enterprises.  Which of the following reflect these?
+All listed here and more!
+
+4. Can IMS be configured for just the IMS TM (transaction manager) component or just the IMS DB (database manager) component?
+Yes
+
+5. Does the IMS architecture allow database and communication components to be exchange without affecting the application program?
+Yes
+
+6. What was integral to the IMS design from the very beginning which is what allows communication components to be exchanged without impacting the application and which is where IMS and the application receive/send messages ?
+IMS Message QUEUE
+
+7. What is the environment called when CICS environments only configure or use the IMS DB component without IMS TM?
+DBCTL (DB Control)
+
+8. The IMS architecture reflects a “separation of powers” concept.  What are the separate areas?
+Communications management; applications; database management
+
+9. What is the environment called when the IMS Transaction Manager component only provides a configuration with Db2 and not IMS database?
+DCCTL (DC Control)
+
+10. What does the IMS acronym mean?
+Information Management System
+
+11. Can an IMS application written many decades ago continue working even if it is accessed by a device type (e.g., browser) that was not in existence when the program was written?
+Yes -  It can continue running
+
+12. How many transactions per second can a single IMS process?
+130000/second
+
+13. What is the IMS nickname?  Choose the most current.
+IMS TM/DB
+
+
